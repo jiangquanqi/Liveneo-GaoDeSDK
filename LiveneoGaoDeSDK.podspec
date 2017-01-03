@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LiveneoGaoDeSDK"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "This is a simple GaoDe SDK Tools"
 
   # This description is used to generate tags and improve search results.
@@ -118,10 +118,10 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "OpenGLES", "UIKit","Foundation","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","SystemConfiguration","Security","AdSupport","JavaScriptCore"
+ # s.frameworks = "OpenGLES", "UIKit","Foundation","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","SystemConfiguration","Security","AdSupport","JavaScriptCore"
 
   # s.library   = "iconv"
-  s.libraries = "z", "stdc++6.0.9","c++"
+ # s.libraries = "z", "stdc++6.0.9","c++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
