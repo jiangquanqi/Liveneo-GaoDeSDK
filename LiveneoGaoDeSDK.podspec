@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
   s.frameworks = "OpenGLES", "UIKit","Foundation","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","SystemConfiguration","Security","AdSupport","JavaScriptCore"
 
   # s.library   = "iconv"
-  s.libraries = "libz", "libstdc++6.0.9","libc++"
+  # s.libraries = "libz", "libstdc++6.0.9","libc++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
