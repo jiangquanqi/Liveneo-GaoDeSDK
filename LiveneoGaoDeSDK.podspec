@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LiveneoGaoDeSDK"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "This is a simple GaoDe SDK Tools"
 
   # This description is used to generate tags and improve search results.
@@ -134,5 +134,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    s.dependency "AMapNavi", "~> 2.3.0"
-   s.dependency "AMapSearch", "~>4.4.1"
+   s.dependency "AMapSearch", "~> 4.4.1"
 end
