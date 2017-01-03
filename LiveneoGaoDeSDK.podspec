@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    This is a simple GaoDe SDK Tools that cteated by jiang
                    DESC
 
-  s.homepage     = "https://github.com/jiangquanqi/LiveneoGaoDeSDK"
+  s.homepage     = "https://github.com/jiangquanqi/Liveneo-GaoDeSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jiangquanqi/LiveneoGaoDeSDK.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/jiangquanqi/Liveneo-GaoDeSDK.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
