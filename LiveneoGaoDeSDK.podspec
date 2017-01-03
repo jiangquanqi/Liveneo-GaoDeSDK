@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LiveneoGaoDeSDK"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "This is a simple GaoDe SDK Tools"
 
   # This description is used to generate tags and improve search results.
@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
   s.frameworks = "OpenGLES", "UIKit","Foundation","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","SystemConfiguration","Security","AdSupport","JavaScriptCore"
 
   # s.library   = "iconv"
-   #s.libraries = "libz", "libstdc++6.0.9","libc++"
+  s.libraries = "z", "stdc++6.0.9","c++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,7 +130,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    s.dependency "AMapNavi", "~> 2.3.0"
