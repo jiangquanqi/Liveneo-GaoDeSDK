@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   This is a simple GaoDe SDK Tools
+                   This is a simple GaoDe SDK Tools that cteated by jiang
                    DESC
 
-  s.homepage     = "http://github.com/jiangquanqi/LiveneoGaoDeSDK"
+  s.homepage     = "https://github.com/jiangquanqi/LiveneoGaoDeSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/LiveneoGaoDeSDK.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.comjiangquanqi/LiveneoGaoDeSDK.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,10 +118,10 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "OpenGLES", "UIKit","Foundation","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","SystemConfiguration","Security","AdSupport","JavaScriptCore"
 
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+  s.libraries = "libz", "libstdc++6.0.9","libc++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
